@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        calculator: {
+          display: "hsl(var(--calculator-display))",
+          shadow: "hsl(var(--calculator-shadow))",
+        },
+        numberBtn: {
+          DEFAULT: "hsl(var(--number-btn))",
+          hover: "hsl(var(--number-btn-hover))",
+        },
+        operationBtn: {
+          DEFAULT: "hsl(var(--operation-btn))",
+          hover: "hsl(var(--operation-btn-hover))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
